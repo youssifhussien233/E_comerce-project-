@@ -1,0 +1,105 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000; /* Background color of the page */
+    color: #fff; /* Text color */
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #007bff; /* Header background color */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Main styles */
+  main {
+    padding: 20px;
+  }
+  
+  /* Section styles */
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section-title {
+    font-size: 2em;
+    color: #28a745; /* Section title color */
+    margin-bottom: 20px;
+  }
+  
+  .divider {
+    border-top: 2px solid #28a745; /* Divider color */
+    margin: 20px 0;
+  }
+  
+  .card {
+    background-color: #fff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    position: relative; 
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333; 
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .card p {
+    margin: 10px 0;
+    color: #666; /* Text color in the card */
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Reduced gap between cards */
+    justify-content: space-evenly; /* To evenly distribute items in the row */
+  }
+  
+  .card {
+    width: calc(25% - 20px); /* Card width relative to the row with some space between them */
+  }
+  
+  .payment-button {
+    background-color: #28a745; /* Button background color */
+    color: #fff; /* Text color in the button */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #007bff; /* Footer background color */
+    color: #fff; /* Text color in the footer */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  

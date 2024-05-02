@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HYDRA-HYPER</title>
+    <link rel="stylesheet" href="css/styles(home).css">
+</head>
+
+<body>
+    <header>
+        <img src="images/download.png" alt="-HYDRA- Logo">
+        <h1>HYDRA-HYPER</h1>
+        <button id="viewCartBtn">View Cart</button>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="login.html">login</a></li>
+            <li><a href="electronics.html">Electronics</a></li>
+            <li><a href="dairy.html">Dairy Products</a></li>
+            <li><a href="Sports products.HTML">Sports Products</a></li>
+            <li><a href="vegtables & fruits.html">Fruits & Vegetables</a></li>
+            <li><a href="fash(eid).html">Fashion</a></li>
+            <li><a href="game.html">games</a></li>
+            <li><a href="toys.html">toys</a></li>
+            <li><a href="books.html">books</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Featured Products</h2>
+            <div class="product-listings">
+                <!-- Product listings will be dynamically added here -->
+            </div>
+        </section>
+
+    </main>
+    <hr class="fancy-line">
+    <footer>
+        <h2>About Us</h2>
+        <caption>OUR TEAM -HYDRA-</caption>
+        <table>
+            <thead>
+                <tr>
+                    <th>Names</th>
+                    <th>ID</th>
+                    <th>Worked-on</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Yousef mohamed gouda (leader)</td>
+                    <td>20230691</td>
+                    <td>Home and login</td>
+                </tr>
+                <tr>
+                    <td>Yousef hussien mohamed hussien </td>
+                    <td>20230677</td>
+                    <td>Fruits & Vegetables and Sports Products</td>
+                </tr>
+                <tr>
+                    <td>Yousef hossam eldin Ma4hor</td>
+                    <td>20230676</td>
+                    <td>Electronics and Dairy Products</td>
+                </tr>
+                <tr>
+                    <td>yousef mohamed hassan emam</td>
+                    <td>20230692</td>
+                    <td>books and toys</td>
+                </tr>
+                <tr>
+                    <td>yousef Eid</td>
+                    <td>20230686</td>
+                    <td>Fashion and Games</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">
+                        &copy; HYDRA-Team
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </footer>
+
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Shopping Cart</h2>
+            <a href="cart.html">View Cart</a>
+            <ul id="cartItems">
+                <!-- Cart items will be dynamically added here -->
+            </ul>
+            <button id="checkoutBtn">Checkout</button>
+        </div>
+    </div>
+
+    <script src="js/script(home).js"></script>
+</body>
+
+</html>

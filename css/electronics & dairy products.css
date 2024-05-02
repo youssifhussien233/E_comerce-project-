@@ -1,0 +1,184 @@
+.electronics-section {
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/background(elc).jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    /* Use flexbox for centering */
+    justify-content: center;
+    /* Horizontally center content */
+    align-items: center;
+    /* Vertically center content */
+}
+
+.electronics-section h2 {
+    font-size: 48px;
+    /* Increase font size */
+}
+
+
+
+.dairy-section {
+    width: 100%;
+    height: 500px;
+    background-image: url('../images/dairy.jpg');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    /* Use flexbox for centering */
+    justify-content: center;
+    /* Horizontally center content */
+    align-items: center;
+    /* Vertically center content */
+}
+
+.dairy-section h2 {
+    font-size: 72px;
+    /* Increase font size */
+}
+
+/* Styles for product rows */
+.product-row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+    /* Added */
+}
+
+/* Styles for product list */
+.product-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* Display items horizontally */
+    flex-wrap: wrap;
+    /* Allow items to wrap */
+    justify-content: center;
+    /* Center items horizontally */
+}
+
+/* Styles for product item */
+.product-item {
+    margin-right: 10px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    /* Added bottom margin */
+    text-align: center;
+    position: relative;
+    flex: 1 0 20%;
+    /* Adjusted flex property for 4-5 items per row */
+    max-width: 20%;
+    /* Adjusted max-width for 4-5 items per row */
+}
+
+/* Styles for product image */
+.product-item img {
+    width: 100%;
+    /* Set image width to 100% of container */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 10px;
+    /* Rounded corners */
+    object-fit: cover;
+}
+
+/* Styles for product info */
+.product-info {
+    margin-top: 5px;
+}
+
+
+
+label {
+    color: white;
+    display: block;
+    /* Display as block element */
+    font-weight: bold;
+    /* Make the text bold */
+    font-size: 1.2em;
+    /* Increase font size */
+    margin-bottom: 10px;
+    /* Add some space below */
+}
+
+/* Style for the header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Align items to the start and end of the header */
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+
+.add,
+.add2 {
+    background-color: rgb(212, 254, 5);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.add:hover,
+.add2:hover {
+    background-color: #FF5733;
+    /* Change to your desired color */
+}
+
+.body1 {
+    background-color: black;
+}
+
+.body2 {
+    background-color: #ffff004d;
+}
+
+/* Targeting labels within the product-row */
+.product-row label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+    /* Increased bottom margin for better spacing */
+    display: inline-block;
+    /* Inline-block for better alignment with input elements */
+    width: 100px;
+    /* Fixed width for consistency */
+}
+
+/* Optional: Styling for the product-list */
+.product-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style for the bg color of products on hover */
+.product-item:hover {
+    background-color: #5d5c5c;
+    /* Change background color on hover */
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer-bottom {
+    color: white;
+}
+
+.product-row label {
+    color: white !important;
+    /* other styles */
+}

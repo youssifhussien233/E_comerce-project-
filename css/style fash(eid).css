@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    Background-image: url(../images2/backgroungfash.jpg);
+    Background-size: contain;
+    Background-position: centre
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #70c098cf;
+    color: #fff;
+    padding: 9px;
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+    background-image: url(download.png);
+    background-size: 100% 100%;
+    padding: 0px;
+}
+
+h1 {
+    margin: 0;
+    color: #c45f00;
+    flex-grow: 1;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#cartItems {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cartItems li {
+    margin-bottom: 10px;
+}
+
+#cartItems li span {
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #77c70d;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+}
+
+nav ul li {
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 0px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #c45f00;
+}
+
+.fancy-line {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #4CAF50, #FFC107, #4CAF50);
+    margin: 20px 0;
+}
+
+.product-card {
+    display: inline-block;
+    width: 250px;
+    /* Fixed width */
+    height: 350px;
+    /* Fixed height */
+    /* Default background color */
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* Hide overflowing content */
+}
+
+.product-name,
+.product-price {
+    text-align: center;
+}
+
+.fancy-line {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #4CAF50, #FFC107, #4CAF50);
+    margin: 20px 0;
+}
